@@ -1,7 +1,15 @@
 .about {
-   height: 100vh;
    width: 100vw;
-   display: flex;
-   justify-content: center;
-   align-items: center;
+
+   &__title {
+      width: 8rem;
+      text-align: center;
+      font-size: 2rem;
+      margin: 12rem auto 8rem;
+   }
+
+   &__description {
+      width: 1024px;
+      margin: 0.2rem auto;
+   }
 }
