@@ -1,0 +1,46 @@
+.header {
+   height: 5rem;
+   width: 100%;
+   position: fixed;
+
+   &__contact {
+      width: 1024px;
+      display: flex;
+      justify-content: space-between;
+      margin: 0 auto;
+   }
+
+   &__contact-icons {
+      width: 9rem;
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+
+      .header__contact-link:hover {
+         transform: scale(1.1);
+      }
+
+      .header__contact-link > img {
+         height: 2rem;
+         width: 2rem;
+      }
+   }
+
+   &__name {
+      height: 50%;
+      font-size: 22px;
+      margin: 0.5rem 1rem;
+   }
+
+   .menu {
+      height: 50%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-size: 18px;
+
+      &__option {
+         margin: 0 1rem;
+      }
+   }
+}
