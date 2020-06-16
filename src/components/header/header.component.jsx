@@ -9,13 +9,13 @@ const Header = () => (
          <div className="header__name">Dariusz Bartyzel</div>
          <div className="header__contact-icons">
             <a href="https://github.com/Noxtirion" className="header__contact-link">
-               <img src={require("../../assets/github.svg")} alt="github link" />
+               <img src={require("../../assets/header-icons/github.svg")} alt="github link" />
             </a>
             <a href="/" className="header__contact-link">
-               <img src={require("../../assets/linkedin.svg")} alt="linkedin link" />
+               <img src={require("../../assets/header-icons/linkedin.svg")} alt="linkedin link" />
             </a>
             <a href="mailto:dariusz.bartyzel88@gmail.com" className="header__contact-link">
-               <img src={require("../../assets/mail.svg")} alt="email" />
+               <img src={require("../../assets/header-icons/mail.svg")} alt="email" />
             </a>
          </div>
       </div>
