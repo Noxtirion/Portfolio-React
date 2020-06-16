@@ -10,7 +10,7 @@ const Projects = () => {
 
    return (
       <section className="projects">
-         <div className="projects__title">Projects</div>
+         <h1 className="projects__title">Projects</h1>
          {projectElements}
       </section>
    );

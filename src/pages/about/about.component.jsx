@@ -4,7 +4,7 @@ import "./about.styles.scss";
 
 const About = () => (
    <section className="about">
-      <div className="about__title">About</div>
+      <h1 className="about__title">About</h1>
       <p className="about__description">
          Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto perferendis hic iure ut,
          voluptas in! Neque necessitatibus quos delectus dolore dignissimos officiis, rerum fugiat

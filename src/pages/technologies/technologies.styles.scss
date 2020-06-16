@@ -1,10 +1,31 @@
 .technologies {
-   width: 100vw;
+   width: 100%;
 
    &__title {
-      width: 8rem;
       text-align: center;
       font-size: 2rem;
-      margin: 12rem auto 8rem;
+      margin: 0 auto 6rem;
+      padding-top: 12rem;
+   }
+
+   &__description {
+      text-align: center;
+      margin-bottom: 3rem;
+   }
+
+   &__elements {
+      max-width: 1024px;
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+      margin: 0 auto;
+
+      .technologies__main,
+      .technologies__tool,
+      .technologies__methodology {
+         display: flex;
+         justify-content: center;
+         flex-wrap: wrap;
+      }
    }
 }
