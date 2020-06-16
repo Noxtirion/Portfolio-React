@@ -1,0 +1,10 @@
+.project-element {
+   width: 900px;
+   height: 450px;
+   display: flex;
+
+   &__image {
+      height: 400px;
+      width: 350px;
+   }
+}
