@@ -21,16 +21,16 @@ const Header = () => (
       </div>
       <div className="menu">
          <Link className="menu__option" to="/">
-            START
+            Home
          </Link>
          <Link className="menu__option" to="/about">
-            ABOUT ME
+            About
          </Link>
          <Link className="menu__option" to="/technologies">
-            TECHNOLOGIES
+            Technologies
          </Link>
          <Link className="menu__option" to="/projects">
-            PROJECTS
+            Projects
          </Link>
       </div>
    </div>
