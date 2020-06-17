@@ -1,0 +1,21 @@
+.button-up {
+   pointer-events: none;
+   opacity: 0;
+   transition: opacity 400ms ease;
+   height: 2.5rem;
+   width: 2.5rem;
+   position: fixed;
+   bottom: 1rem;
+   right: 1.5rem;
+   transition: transform 0.3s, opacity 0.3s;
+   cursor: pointer;
+
+   &:hover {
+      transform: translateY(-0.3rem);
+   }
+}
+
+.button-up.appear {
+   pointer-events: visible;
+   opacity: 0.5;
+}

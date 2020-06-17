@@ -7,12 +7,22 @@ import Home from "./pages/home/home.component.jsx";
 import About from "./pages/about/about.component.jsx";
 import Projects from "./pages/projects/projects.component.jsx";
 import Technologies from "./pages/technologies/technologies.component.jsx";
+import ButtonUp from "./components/button-up/button-up.component.jsx";
+import { useInView } from "react-intersection-observer";
 
 import "./App.css";
 
 function App() {
+   const [ref, inView] = useInView({
+      threshold: 0,
+      rootMargin: "100px"
+   });
+
+   const checkView = !inView;
+
    return (
       <div className="App">
+         <div className="top" ref={ref}></div>
          <Header />
          <Switch>
             <Route exact path="/">
@@ -28,6 +38,7 @@ function App() {
                <Technologies />
             </Route>
          </Switch>
+         <ButtonUp appear={checkView ? "appear" : ""} />
       </div>
    );
 }
