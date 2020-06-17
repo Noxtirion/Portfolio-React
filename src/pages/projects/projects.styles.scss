@@ -1,10 +1,18 @@
 .projects {
    width: 100%;
+   opacity: 0;
+   animation: appear 0.7s forwards;
 
    &__title {
       text-align: center;
       font-size: 2rem;
       margin: 0 auto 8rem;
       padding-top: 12rem;
+   }
+}
+
+@keyframes appear {
+   to {
+      opacity: 1;
    }
 }

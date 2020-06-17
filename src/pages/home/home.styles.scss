@@ -4,4 +4,15 @@
    display: flex;
    justify-content: center;
    align-items: center;
+
+   .home__title {
+      opacity: 0;
+      animation: appear 0.7s forwards;
+   }
+}
+
+@keyframes appear {
+   to {
+      opacity: 1;
+   }
 }

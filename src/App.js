@@ -15,7 +15,7 @@ import "./App.css";
 function App() {
    const [ref, inView] = useInView({
       threshold: 0,
-      rootMargin: "100px"
+      rootMargin: "30px"
    });
 
    return (
