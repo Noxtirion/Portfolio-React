@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 import "./header.styles.scss";
 
-const Header = () => (
+const Header = ({ fold }) => (
    <div className="header">
       <div className="header__contact">
          <div className="header__name">Dariusz Bartyzel</div>
@@ -19,7 +19,7 @@ const Header = () => (
             </a>
          </div>
       </div>
-      <div className="menu">
+      <div className={`menu ${fold}`}>
          <Link className="menu__option" to="/">
             Home
          </Link>

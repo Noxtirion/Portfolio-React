@@ -18,12 +18,10 @@ function App() {
       rootMargin: "100px"
    });
 
-   const checkView = !inView;
-
    return (
       <div className="App">
          <div className="top" ref={ref}></div>
-         <Header />
+         <Header fold={!inView ? "fold" : ""} />
          <Switch>
             <Route exact path="/">
                <Home />
@@ -38,7 +36,7 @@ function App() {
                <Technologies />
             </Route>
          </Switch>
-         <ButtonUp appear={checkView ? "appear" : ""} />
+         <ButtonUp appear={!inView ? "appear" : ""} />
       </div>
    );
 }
