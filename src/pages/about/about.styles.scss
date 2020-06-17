@@ -9,7 +9,11 @@
    }
 
    &__description {
-      width: 1024px;
+      max-width: 1024px;
       margin: 0.2rem auto;
+
+      p {
+         margin: 0.5rem;
+      }
    }
 }
