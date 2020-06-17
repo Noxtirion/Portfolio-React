@@ -5,7 +5,8 @@ const PROJECTS_DATA = [
       description: "temoprary description",
       imageUrl: "rss.png",
       liveUrl: "https://nervous-swirles-ae7a2b.netlify.app/",
-      githubUrl: "https://github.com/Noxtirion/Cloth-shop"
+      githubUrl: "https://github.com/Noxtirion/Cloth-shop",
+      technologyUsed: ["React", "Redux", "Router", "Firebase", "SCSS"]
    },
    {
       id: 2,
@@ -14,7 +15,8 @@ const PROJECTS_DATA = [
          "Czytnik RSS stworzony za pomocą Reacta (Hooks, React Router). Pozwala wklejać odpowiedni adres URL i odczytywać jego zawartość. Nazwane adresy zapisywane są obecnie w localStorage. Projekt planuję rozbudować.",
       imageUrl: "rss.png",
       liveUrl: "https://determined-kare-41af28.netlify.com",
-      githubUrl: "https://github.com/Noxtirion/rss"
+      githubUrl: "https://github.com/Noxtirion/rss",
+      technologyUsed: ["React", "Router", "SCSS"]
    },
    {
       id: 3,
@@ -22,7 +24,8 @@ const PROJECTS_DATA = [
       description: "Portfolio na którym się obecnie znajdujemy.",
       imageUrl: "portfolio.png",
       liveUrl: "live url",
-      githubUrl: "github url"
+      githubUrl: "github url",
+      technologyUsed: ["React", "Router", "SCSS"]
    },
    {
       id: 4,
@@ -31,7 +34,8 @@ const PROJECTS_DATA = [
          "Strona zawierająca opis oraz zasady gry na serwerze Minecraft. Stworzona dla osób chcących rozpocząć wspólną zabawę w grze.",
       imageUrl: "minecraft.png",
       liveUrl: "https://przestwor.pl",
-      githubUrl: "https://github.com/Noxtirion/Minecraft-serv"
+      githubUrl: "https://github.com/Noxtirion/Minecraft-serv",
+      technologyUsed: ["JS", "HTML", "SCSS"]
    },
    {
       id: 5,
@@ -40,7 +44,8 @@ const PROJECTS_DATA = [
          "Projekt wykorzystujący API NASA, w celu codziennej aktualizacji *Astronomy Picture of the Day* (często fotografia lub ilustracja obiektów czy zjawisk występujących w przestrzeni). Umożliwia wybranie daty obrazka oraz sprawdzenie temperatury i prędkości wiatru na Marsie. Napisany w Javascript.",
       imageUrl: "space.png",
       liveUrl: "https://noxtirion.github.io/The-Space-Facts",
-      githubUrl: "https://github.com/Noxtirion/The-Space-Facts"
+      githubUrl: "https://github.com/Noxtirion/The-Space-Facts",
+      technologyUsed: ["JS", "HTML", "SCSS"]
    },
    {
       id: 6,
@@ -49,7 +54,8 @@ const PROJECTS_DATA = [
          "Kalkulator napisany w React. Na początku z użyciem class components, później zmiana na functional i Hooks:)",
       imageUrl: "kalkulator.png",
       liveUrl: "https://blissful-meninsky-fa00a9.netlify.com",
-      githubUrl: "https://github.com/Noxtirion/React-Calculator"
+      githubUrl: "https://github.com/Noxtirion/React-Calculator",
+      technologyUsed: ["React", "CSS"]
    },
    {
       id: 7,
@@ -58,7 +64,8 @@ const PROJECTS_DATA = [
          "Strona dla biura architektonicznego. Napisana podczas przyswajania wiedzy z HTML i CSS. O Javascript nie wiedziałem jeszcze wówczas wiele, dlatego wykorzystane zostały tutaj zewnętrzne źródła:)",
       imageUrl: "noma.png",
       liveUrl: "https://noxtirion.github.io/Architectural-Studio",
-      githubUrl: "https://github.com/Noxtirion/Architectural-Studio"
+      githubUrl: "https://github.com/Noxtirion/Architectural-Studio",
+      technologyUsed: ["HTML", "CSS"]
    },
    {
       id: 8,
@@ -67,7 +74,8 @@ const PROJECTS_DATA = [
          "Strona dla biura rachunkowego. Podobnie jak powyższy projekt napisana podczas nauki HTML i CSS.",
       imageUrl: "rachunkowe.png",
       liveUrl: "https://noxtirion.github.io/Accounting-Office",
-      githubUrl: "https://github.com/Noxtirion/Accounting-Office"
+      githubUrl: "https://github.com/Noxtirion/Accounting-Office",
+      technologyUsed: ["HTML", "CSS"]
    },
    {
       id: 9,
@@ -76,7 +84,8 @@ const PROJECTS_DATA = [
          "Prosta gra *Memory*. Pierwsze samodzielne podejście do Javascriptu. Napisana dla ćwiczeń i utrwalenia zdobytej wiedzy.",
       imageUrl: "game.png",
       liveUrl: "https://noxtirion.github.io/The-Game-Of-Colors",
-      githubUrl: "https://github.com/Noxtirion/The-Game-Of-Colors"
+      githubUrl: "https://github.com/Noxtirion/The-Game-Of-Colors",
+      technologyUsed: ["JS", "HTML", "CSS"]
    }
 ];
 

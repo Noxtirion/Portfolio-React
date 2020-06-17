@@ -1,10 +1,15 @@
+@mixin flex($display: flex, $justify-content: center, $align-items: center) {
+   display: $display;
+   justify-content: $justify-content;
+   align-items: $align-items;
+   @content;
+}
+
 .project-element {
    max-width: 1024px;
    height: 450px;
    margin: 1rem auto;
-   display: flex;
-   justify-content: center;
-   align-items: center;
+   @include flex;
 
    &__image {
       height: 400px;
@@ -42,14 +47,25 @@
    &__back {
       background-color: #777777;
       transform: rotateY(180deg);
-      display: flex;
-      justify-content: center;
-      align-items: center;
+      @include flex;
 
       &-line {
          height: 90%;
          width: 90%;
          border: 1px solid #fff;
+         @include flex;
+         flex-wrap: wrap;
+
+         .project-element__technologies {
+            width: 5rem;
+            height: 5rem;
+            border: 1px solid #fff;
+            margin: 0.5rem;
+            @include flex;
+            border-radius: 50%;
+            color: #fff;
+            box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+         }
       }
    }
 
@@ -79,9 +95,7 @@
             width: 5rem;
             border: 1px solid #777777;
             margin-right: 1rem;
-            display: flex;
-            align-items: center;
-            justify-content: center;
+            @include flex;
             border-radius: 5px;
 
             &:hover {
