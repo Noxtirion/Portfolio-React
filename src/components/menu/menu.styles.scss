@@ -62,7 +62,8 @@
 @media (min-width: 1024px) {
    .menu {
       height: 50%;
-      width: auto;
+      width: 600px;
+      margin: 0 auto;
       justify-content: center;
       align-items: center;
       transition: transform 1s;
