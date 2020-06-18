@@ -1,5 +1,6 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import { MenuContextProvider } from "../../context/menu-context";
+import Menu from "../menu/menu.component";
 
 import "./header.styles.scss";
 
@@ -19,20 +20,9 @@ const Header = ({ fold }) => (
             </a>
          </div>
       </div>
-      <div className={`menu ${fold}`}>
-         <Link className="menu__option" to="/">
-            Home
-         </Link>
-         <Link className="menu__option" to="/about">
-            About
-         </Link>
-         <Link className="menu__option" to="/technologies">
-            Technologies
-         </Link>
-         <Link className="menu__option" to="/projects">
-            Projects
-         </Link>
-      </div>
+      <MenuContextProvider>
+         <Menu fold={fold} />
+      </MenuContextProvider>
    </div>
 );
 
