@@ -5,9 +5,12 @@ import Menu from "../menu/menu.component";
 import "./header.styles.scss";
 
 const Header = ({ fold }) => (
-   <div className="header">
+   <header className="header">
       <div className="header__contact">
-         <div className="header__name">Dariusz Bartyzel</div>
+         <div className="header__name">
+            <div className="header__first-name">Dariusz</div>{" "}
+            <div className="header__last-name">Bartyzel</div>
+         </div>
          <div className="header__contact-icons">
             <a href="https://github.com/Noxtirion" className="header__contact-link">
                <img src={require("../../assets/header-icons/github.svg")} alt="github link" />
@@ -23,7 +26,7 @@ const Header = ({ fold }) => (
       <MenuContextProvider>
          <Menu fold={fold} />
       </MenuContextProvider>
-   </div>
+   </header>
 );
 
 export default Header;

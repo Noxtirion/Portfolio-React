@@ -34,7 +34,7 @@ const ProjectElement = ({
                <a href={githubUrl}>
                   <div className="project-element__github">Github</div>
                </a>
-               <a href={liveUrl}>
+               <a href={liveUrl} style={{ display: !liveUrl && "none" }}>
                   <div className="project-element__live">LIVE</div>
                </a>
             </div>

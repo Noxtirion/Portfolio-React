@@ -3,7 +3,6 @@
    justify-content: space-between;
    flex-wrap: wrap;
    font-size: 18px;
-   transition: transform 1s;
    flex-direction: row;
 
    &__options {
@@ -12,7 +11,8 @@
       background-color: rgba(255, 255, 255, 0.9);
       border-right: 1px solid #000;
       border-bottom: 1px solid #000;
-      transition: transform 0.5s;
+      transition: transform 0.5s, width 1s;
+      width: 130px;
 
       &.open {
          transform: translateX(-200px);
@@ -51,12 +51,21 @@
    }
 }
 
+@media (min-width: 600px) {
+   .menu {
+      &__options {
+         width: 170px;
+      }
+   }
+}
+
 @media (min-width: 1024px) {
    .menu {
       height: 50%;
       width: auto;
       justify-content: center;
       align-items: center;
+      transition: transform 1s;
 
       .burger {
          display: none;
@@ -70,6 +79,7 @@
          flex-direction: row;
          border: none;
          background-color: transparent;
+         width: auto;
 
          &.open {
             transform: translateX(0px);
