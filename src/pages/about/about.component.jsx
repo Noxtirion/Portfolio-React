@@ -7,7 +7,7 @@ const About = () => (
       <h1 className="about__title">About</h1>
       <div className="about__description">
          <p>
-            My name is Dariusz Bartyzel. I have studied Finance and Accounting in University of
+            My name is Dariusz Bartyzel. I have studied Finance and Accounting at University of
             Economics in Cracow. After a few years of working in this profession I came to
             conclusion that I lack satisfaction from my current specialization. Wondering what path
             should I take next, suddenly an opportunity occurred to create my first website. It
