@@ -1,7 +1,12 @@
 .projects {
    width: 100%;
    opacity: 0;
-   animation: appear 0.7s forwards;
+   animation: appear-projects 0.7s forwards;
+   letter-spacing: 1px;
+   line-height: 1.6;
+   overflow: hidden;
+   background: url(../../assets/style-images/gear-work.svg) no-repeat 50% 6rem;
+   background-size: 1100px;
 
    &__title {
       text-align: center;
@@ -11,7 +16,7 @@
    }
 }
 
-@keyframes appear {
+@keyframes appear-projects {
    to {
       opacity: 1;
    }

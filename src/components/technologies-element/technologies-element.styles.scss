@@ -1,12 +1,14 @@
 .technologies__single-element {
-   height: 5rem;
-   width: 5rem;
+   height: 5.1rem;
+   width: 5.1rem;
    display: flex;
    justify-content: center;
    align-items: center;
+   font-size: 15px;
    margin: 1rem;
    border-radius: 50%;
    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+   background-color: #fff;
 
    &:hover {
       box-shadow: 5px 5px 8px rgba(0, 0, 0, 0.6);

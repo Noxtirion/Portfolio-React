@@ -1,7 +1,12 @@
 .technologies {
    width: 100%;
+   min-height: 100vh;
    opacity: 0;
-   animation: appear 0.7s forwards;
+   animation: appear-technologies 0.7s forwards;
+   letter-spacing: 1px;
+   line-height: 1.6;
+   background: url(../../assets/style-images/gear-inner.svg) no-repeat 50% -4rem;
+   background-size: 1100px;
 
    &__title {
       text-align: center;
@@ -32,7 +37,7 @@
    }
 }
 
-@keyframes appear {
+@keyframes appear-technologies {
    to {
       opacity: 1;
    }

@@ -1,7 +1,15 @@
 .about {
    width: 100%;
+   min-height: 100vh;
    opacity: 0;
-   animation: appear 0.7s forwards;
+   animation: appear-about 0.7s forwards;
+   letter-spacing: 1px;
+   line-height: 1.6;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   background: url(../../assets/style-images/gear-man.svg) no-repeat 50% 6rem;
+   background-size: 1100px;
 
    &__title {
       text-align: center;
@@ -12,16 +20,34 @@
 
    &__description {
       max-width: 1024px;
-      margin: 0.2rem auto;
+      margin: 0.2rem auto 5rem;
 
       p {
-         margin: 0.5rem;
+         margin: 0 0.5rem;
+         font-size: 18px;
+      }
+   }
+
+   &__gear-wrapper {
+      margin: 1rem;
+
+      .about__gear {
+         width: 6rem;
+         height: 6rem;
+         opacity: 0;
+         animation: spin-about 7s infinite linear, appear-about 2s forwards;
       }
    }
 }
 
-@keyframes appear {
+@keyframes appear-about {
    to {
       opacity: 1;
+   }
+}
+
+@keyframes spin-about {
+   100% {
+      transform: rotate(360deg);
    }
 }

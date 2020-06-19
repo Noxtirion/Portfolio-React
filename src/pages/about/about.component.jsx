@@ -18,6 +18,13 @@ const About = () => (
             my skills as a Front-end Developer.
          </p>
       </div>
+      <div className="about__gear-wrapper">
+         <img
+            src={require("../../assets/style-images/gear1.svg")}
+            className="about__gear"
+            alt="gear"
+         />
+      </div>
    </section>
 );
 

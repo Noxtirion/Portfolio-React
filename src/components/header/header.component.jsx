@@ -16,7 +16,10 @@ const Header = ({ fold }) => (
                <a href="https://github.com/Noxtirion" className="header__contact-link">
                   <img src={require("../../assets/header-icons/github.svg")} alt="github link" />
                </a>
-               <a href="/" className="header__contact-link">
+               <a
+                  href="https://www.linkedin.com/in/dariusz-bartyzel-521b6a1a9/"
+                  className="header__contact-link"
+               >
                   <img
                      src={require("../../assets/header-icons/linkedin.svg")}
                      alt="linkedin link"

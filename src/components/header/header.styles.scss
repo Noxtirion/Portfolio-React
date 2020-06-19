@@ -25,6 +25,12 @@
       justify-content: space-around;
       align-items: center;
 
+      .header__contact-link {
+         display: flex;
+         justify-content: center;
+         align-items: center;
+      }
+
       .header__contact-link:hover {
          transform: scale(1.1);
       }
