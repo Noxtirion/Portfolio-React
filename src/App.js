@@ -13,15 +13,17 @@ import { useInView } from "react-intersection-observer";
 import "./App.css";
 
 function App() {
-   const [ref, inView] = useInView({
+   const [ref, inView, entry] = useInView({
       threshold: 0,
       rootMargin: "30px"
    });
 
+   const checkView = entry !== undefined && !inView;
+
    return (
       <div className="App">
          <div className="top" ref={ref}></div>
-         <Header fold={!inView ? "fold" : ""} />
+         <Header fold={checkView ? "fold" : ""} />
          <Switch>
             <Route exact path="/">
                <Home />
@@ -36,7 +38,7 @@ function App() {
                <Technologies />
             </Route>
          </Switch>
-         <ButtonUp appear={!inView ? "appear" : ""} />
+         <ButtonUp appear={checkView ? "appear" : ""} />
       </div>
    );
 }

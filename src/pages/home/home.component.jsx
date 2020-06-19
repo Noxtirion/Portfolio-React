@@ -11,8 +11,13 @@ const Home = () => (
             alt="gear"
          />
          <div className="home__title">
-            <div>*Hello, I'm Dariusz*</div>
-            <div>Beginner Front-end Developer</div>
+            <div className="home__name-wrapper">
+               <div className="home__greet">Hello!</div>
+               <div className="home__name">
+                  I'm <span>Darek</span>.
+               </div>
+            </div>
+            <div className="home__who">Beginner Front-end Developer</div>
          </div>
          <img
             src={require("../../assets/style-images/gear1.svg")}
