@@ -8,7 +8,7 @@ const About = () => (
       <div className="about__description">
          <p>
             My name is Dariusz Bartyzel. I have studied Finance and Accounting at University of
-            Economics in Cracow. After a few years of working in this profession I came to
+            Economics in Cracow. After a few years of working in this profession I came to a
             conclusion that I lack satisfaction from my current specialization. Wondering what path
             should I take next, suddenly an opportunity occurred to create my first website. It
             turned out to be so fascinating that resulted in decision to change my future career
