@@ -30,6 +30,16 @@ const PROJECTS_DATA = [
    },
    {
       id: 4,
+      title: "NOMA Architekci",
+      description:
+         "Website for the Architectural Studio. Initially has been written with HTML and CSS. Currently I am refactoring the code",
+      imageUrl: "noma.png",
+      liveUrl: "https://admiring-brown-c03300.netlify.app/",
+      githubUrl: "https://github.com/Noxtirion/Noma-React",
+      technologyUsed: ["REACT", "SCSS"]
+   },
+   {
+      id: 5,
       title: "Minecraft",
       description:
          "A page containing the description and rules of the game on the Minecraft server. Created for people who want to start playing the game.",
@@ -39,7 +49,7 @@ const PROJECTS_DATA = [
       technologyUsed: ["JS", "HTML", "SCSS"]
    },
    {
-      id: 5,
+      id: 6,
       title: "The Space Facts",
       description:
          'Project using the NASA API to update "Astronomy Picture of the Day" on a daily basis (often photography or illustration of objects or phenomena occurring in space). Allows you to select the date of the image and check the temperature and wind speed on Mars. Written in Javascript.',
@@ -49,7 +59,7 @@ const PROJECTS_DATA = [
       technologyUsed: ["JS", "HTML", "SCSS"]
    },
    {
-      id: 6,
+      id: 7,
       title: "Calculator",
       description:
          "Simple calculator (not perfect but it was my first attempt to write anything in React). At the beginning with the usage of class components, then changed to functional components and Hooks :)",
@@ -59,20 +69,10 @@ const PROJECTS_DATA = [
       technologyUsed: ["React", "CSS"]
    },
    {
-      id: 7,
-      title: "NOMA Architekci",
-      description:
-         "Website for the Architectural Studio. Written during the learning of HTML and CSS. I didn't know much about Javascript at the time, so external sources were used here. I know it can be done much better, but after few weeks of studying I was really proud of it:)",
-      imageUrl: "noma.png",
-      liveUrl: "https://noxtirion.github.io/Architectural-Studio",
-      githubUrl: "https://github.com/Noxtirion/Architectural-Studio",
-      technologyUsed: ["HTML", "CSS"]
-   },
-   {
       id: 8,
       title: "Biuro Rachunkowe",
       description:
-         "Website for the Accounting Office. Just like the above project, written while learning HTML and CSS.",
+         "Website for the Accounting Office. Written during the learning of HTML and CSS. I didn't know much about Javascript at the time, so external sources were used here. I know it can be done much better, but after few weeks of studying I was really proud of it:)",
       imageUrl: "rachunkowe.png",
       liveUrl: "https://noxtirion.github.io/Accounting-Office",
       githubUrl: "https://github.com/Noxtirion/Accounting-Office",
