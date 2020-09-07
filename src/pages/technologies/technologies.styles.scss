@@ -17,7 +17,11 @@
 
    &__description {
       text-align: center;
-      margin: 0 0.5rem 4rem;
+      margin: 0 0.5rem;
+   }
+
+   &__description--extra {
+      margin-bottom: 4rem;
    }
 
    &__elements {
