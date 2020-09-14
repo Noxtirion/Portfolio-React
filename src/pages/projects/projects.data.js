@@ -67,26 +67,6 @@ const PROJECTS_DATA = [
       liveUrl: "https://blissful-meninsky-fa00a9.netlify.com",
       githubUrl: "https://github.com/Noxtirion/React-Calculator",
       technologyUsed: ["React", "CSS"]
-   },
-   {
-      id: 8,
-      title: "Biuro Rachunkowe",
-      description:
-         "Website for the Accounting Office. Written during the learning of HTML and CSS. I didn't know much about Javascript at the time, so external sources were used here. I know it can be done much better, but after few weeks of studying I was really proud of it:)",
-      imageUrl: "rachunkowe.png",
-      liveUrl: "https://noxtirion.github.io/Accounting-Office",
-      githubUrl: "https://github.com/Noxtirion/Accounting-Office",
-      technologyUsed: ["HTML", "CSS"]
-   },
-   {
-      id: 9,
-      title: "Game Of Colors",
-      description:
-         'A simple "Memory" game. The first independent approach to Javascript. Written for exercises and consolidation of acquired knowledge.',
-      imageUrl: "game.png",
-      liveUrl: "https://noxtirion.github.io/The-Game-Of-Colors",
-      githubUrl: "https://github.com/Noxtirion/The-Game-Of-Colors",
-      technologyUsed: ["JS", "HTML", "CSS"]
    }
 ];
 
