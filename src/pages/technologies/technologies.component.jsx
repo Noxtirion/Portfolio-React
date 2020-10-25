@@ -6,7 +6,7 @@ import "./technologies.styles.scss";
 
 const Technologies = () => {
    const technologiesNames = {
-      mainNames: ["HTML", "CSS", "JS", "REACT", "REDUX", "SCSS"],
+      mainNames: ["HTML", "CSS", "JS", "REACT", "REDUX", "ANGULAR", "SCSS"],
       toolNames: ["WEBPACK", "GIT"],
       methodologyNames: ["BEM"]
    };
