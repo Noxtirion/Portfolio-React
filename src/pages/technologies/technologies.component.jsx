@@ -8,7 +8,7 @@ const Technologies = () => {
    const technologiesNames = {
       mainNames: ["HTML", "CSS", "JS", "REACT", "REDUX", "ANGULAR", "SCSS"],
       toolNames: ["WEBPACK", "GIT"],
-      methodologyNames: ["BEM"]
+      methodologyNames: ["BEM"],
    };
 
    const { mainNames, toolNames, methodologyNames } = technologiesNames;
@@ -24,9 +24,6 @@ const Technologies = () => {
          <h1 className="technologies__title">Technologies</h1>
          <p className="technologies__description">
             More or less everything that I have been using during learning and creating projects.
-         </p>
-         <p className="technologies__description technologies__description--extra">
-            Currently I am learning Angular due to open source project in which I participate.
          </p>
          <div className="technologies__elements">
             <div className="technologies__main">
