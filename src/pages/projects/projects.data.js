@@ -54,8 +54,8 @@ const PROJECTS_DATA = [
       description:
          "A page containing the description and rules of the game on the Minecraft server. Created for people who want to start playing the game.",
       imageUrl: "minecraft.png",
-      liveUrl: "https://przestwor.pl",
-      githubUrl: "https://github.com/Noxtirion/Minecraft-serv",
+      liveUrl: "https://noxtirion.github.io/minecraft/",
+      githubUrl: "https://github.com/Noxtirion/minecraft",
       technologyUsed: ["JS", "HTML", "SCSS"],
    },
    {
