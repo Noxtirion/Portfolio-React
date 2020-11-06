@@ -7,7 +7,7 @@ const BurgerButton = () => {
    const { open, toggleButton } = useContext(MenuContext);
 
    return (
-      <div className={`burger ${open ? "open" : ""}`} onClick={toggleButton}>
+      <div className={`burger ${open ? "open" : ""}`} onClick={() => toggleButton(!open)}>
          <div className="burger-inside"></div>
       </div>
    );

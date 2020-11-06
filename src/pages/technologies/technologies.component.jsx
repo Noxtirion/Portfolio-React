@@ -1,10 +1,13 @@
-import React from "react";
+import React, { useEffect, useContext } from "react";
+import { SpinnerContext } from "../../context/spinner-context";
 
 import TechnologiesElement from "../../components/technologies-element/technologies-element.component";
 
 import "./technologies.styles.scss";
 
 const Technologies = () => {
+   const { toggleLoading } = useContext(SpinnerContext);
+
    const technologiesNames = {
       mainNames: ["HTML", "CSS", "JS", "REACT", "REDUX", "ANGULAR", "SCSS"],
       toolNames: ["WEBPACK", "GIT"],
@@ -18,6 +21,10 @@ const Technologies = () => {
    const technologyElements = allNames.map((name, k) => (
       <TechnologiesElement key={k} name={name} />
    ));
+
+   useEffect(() => {
+      toggleLoading(false, "right");
+   }, [toggleLoading]);
 
    return (
       <section className="technologies">

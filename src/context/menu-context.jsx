@@ -4,8 +4,8 @@ const MenuContext = React.createContext();
 function MenuContextProvider(props) {
    const [open, setOpen] = useState(false);
 
-   const toggleButton = () => {
-      setOpen(!open);
+   const toggleButton = (isOpen) => {
+      setOpen(isOpen);
    };
 
    return (
