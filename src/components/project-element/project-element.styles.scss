@@ -11,7 +11,7 @@
    margin: 1rem auto;
    @include flex;
    flex-direction: column;
-   border-bottom: 1px solid #000;
+   border-bottom: 1px solid #463f3a;
 
    &:last-child {
       border-bottom: none;
@@ -27,7 +27,7 @@
    &__front > img {
       height: 100%;
       width: 100%;
-      border: 1px solid #000;
+      border: 1px solid #463f3a;
    }
 
    &__card {
@@ -51,14 +51,14 @@
    }
 
    &__back {
-      background-color: #777777;
+      background-color: #8a817c;
       transform: rotateY(180deg);
       @include flex;
 
       &-line {
          height: 90%;
          width: 90%;
-         border: 1px solid #fff;
+         border: 1px solid #f4f3ee;
          @include flex;
          flex-wrap: wrap;
 
@@ -66,11 +66,11 @@
             width: 4rem;
             height: 4rem;
             font-size: 14px;
-            border: 1px solid #fff;
+            border: 1px solid #f4f3ee;
             margin: 0.5rem;
             @include flex;
             border-radius: 50%;
-            color: #fff;
+            color: #f4f3ee;
             box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
          }
       }
@@ -101,14 +101,14 @@
          .project-element__live {
             height: 2rem;
             width: 5rem;
-            border: 1px solid #777777;
+            border: 1px solid #8a817c;
             margin-right: 1rem;
             @include flex;
             border-radius: 5px;
 
             &:hover {
-               border-color: #ff0000;
-               color: #777777;
+               border-color: #f13a3a;
+               color: #8a817c;
             }
          }
       }

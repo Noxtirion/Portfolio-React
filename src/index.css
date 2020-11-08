@@ -13,6 +13,22 @@ body {
       "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
    -webkit-font-smoothing: antialiased;
    -moz-osx-font-smoothing: grayscale;
+   background-image: linear-gradient(to right, #f4f3ee, #f4f3ee 100%);
+}
+
+@media (min-width: 1024px) {
+   body {
+      background-image: linear-gradient(
+         to right,
+         #463f3a,
+         #463f3a 5%,
+         #8a817c 5%,
+         #8a817c 15%,
+         #bcb8b1 15%,
+         #bcb8b1 30%,
+         #f4f3ee 30%
+      );
+   }
 }
 
 code {

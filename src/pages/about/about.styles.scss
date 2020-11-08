@@ -7,6 +7,7 @@
    line-height: 1.6;
    display: flex;
    flex-direction: column;
+   justify-content: center;
    align-items: center;
    background: url(../../assets/style-images/gear-man.svg) no-repeat 50% 6rem;
    background-size: 1100px;
@@ -20,11 +21,23 @@
 
    &__description {
       max-width: 1024px;
-      margin: 0.2rem auto 5rem;
+      margin: 0.2rem 0.5rem 5rem;
+      background-color: #8a817c;
+      padding: 1rem;
+
+      @media (min-width: 550px) {
+         box-shadow: 3px 2px 4px #463f3a;
+      }
 
       p {
          margin: 0 0.5rem;
          font-size: 18px;
+         color: #f4f3ee;
+
+         @media (min-width: 1024px) and (max-width: 1130px) {
+            margin: 0 3.5rem;
+            font-size: 18px;
+         }
       }
    }
 

@@ -1,5 +1,6 @@
 * {
    box-sizing: border-box;
+   color: #463f3a;
 }
 
 .top {
@@ -8,7 +9,7 @@
 
 a {
    text-decoration: none;
-   color: black;
+   color: #463f3a;
 }
 
 p {

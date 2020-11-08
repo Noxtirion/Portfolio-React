@@ -7,13 +7,13 @@
    grid-template-rows: repeat(10, 1fr);
    grid-template-columns: 1fr;
 
-   @media (min-width: 800px) {
+   @media (min-width: 1024px) {
       grid-template-columns: repeat(10, 1fr);
       grid-template-rows: 1fr;
    }
 
    .loading-page__column {
-      background-color: #000;
+      background-color: #463f3a;
       opacity: 0.8;
       transform: scaleX(101%);
    }
@@ -117,34 +117,34 @@
 
    &.left {
       .loading-page__column:nth-child(1) {
-         animation: middle 0.7s 0.4s forwards;
+         animation: middleBack 0.7s 0.1s forwards;
       }
       .loading-page__column:nth-child(2) {
-         animation: middle 0.7s 0.3s forwards;
+         animation: middle 0.7s 0.1s forwards;
       }
       .loading-page__column:nth-child(3) {
-         animation: middle 0.7s 0.2s forwards;
+         animation: middleBack 0.7s 0.1s forwards;
       }
       .loading-page__column:nth-child(4) {
          animation: middle 0.7s 0.1s forwards;
       }
       .loading-page__column:nth-child(5) {
-         animation: middle 0.7s 0s forwards;
+         animation: middleBack 0.7s 0.1s forwards;
       }
       .loading-page__column:nth-child(6) {
-         animation: middleBack 0.7s 0s forwards;
+         animation: middle 0.7s 0.1s forwards;
       }
       .loading-page__column:nth-child(7) {
          animation: middleBack 0.7s 0.1s forwards;
       }
       .loading-page__column:nth-child(8) {
-         animation: middleBack 0.7s 0.2s forwards;
+         animation: middle 0.7s 0.1s forwards;
       }
       .loading-page__column:nth-child(9) {
-         animation: middleBack 0.7s 0.3s forwards;
+         animation: middleBack 0.7s 0.1s forwards;
       }
       .loading-page__column:nth-child(10) {
-         animation: middleBack 0.7s 0.4s forwards;
+         animation: middle 0.7s 0.1s forwards;
       }
    }
 }
@@ -177,7 +177,7 @@
    }
 }
 
-@media (min-width: 800px) {
+@media (min-width: 1024px) {
    @keyframes up {
       100% {
          transform: translateY(-100%);
